@@ -15,6 +15,16 @@ Bu projede döngüler hakkında bilgiler edindim. for ve while döngülerinin ku
 ***
 ## ⭐ 5. Proje - Döngüler ile Şekil Oluşturma
 Bu projede for döngüsünü kullanarak yıldız ile dik üçgen, ters üçgen, baklava dilimi ve pramit gibi şekiller oluşturdum.
+***
+## 🗂️ 6. Proje - Diziler (Arrays)
+Bu projede aynı veri tipine sahip çok sayıda verilerle dizi oluşturmayı öğrendim  ve dizileri kullanarak örnekler yaptım. Dizilerde dikkat edilmesi gereken konulardan biri olan index numaralarının mantığını kavradım. Dizilerde kullanılan çeşitli metotları kullanarak denemeler yaptım. Dizileri ve döngüleri bir arada kullanarak dizi elemanlarını yazdırdım. genel olarak dizilerin mantığını ve kullanım çeşitlerini öğrendim.
+***
+## 🔁 7. Proje - Foreach Döngüsü
+Bu projede foreach döngüsünü dizilerle kullanarak iki konuyu bir arada pekiştirdim. Foreach döngüsünün yapısında değişken türü, değişken adı, içinden al anlamını taşıyan "in" ve liste veya dizi gibi koleksiyon üyesi kullanıldığını öğrendim. Foreach döngüsüyle örnekler yaptım ve yeni liste oluşturmayı öğrendim.
+***
+## ✍️ 8. Proje - Metotlar
+Bu projede metotların aslında birer fonksiyon olduğunu ve programda kullandığımız hazır metotlar olduğu gibi kendi ihtiyacımıza göre de yeni metotlar yazılabileceğini öğrendim. Metot oluşturma yöntemlerini ve kurallarını öğrendim. Oluşturduğumuz metodun geriye değer döndürüp döndürmediği durumları inceledim. Oluşturulan metodu çağırma işlemleri yaparak örneklerle metotlar konusunu pekiştirdim.
+
 
 
 
