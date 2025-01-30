@@ -164,3 +164,4 @@ namespace _01_MainSubjects
 // Console.Read(); veya Console.ReadKey(); ile projeyi çalıştırdığımızda ekrandan hemen kaybolmasını engelleriz, entır tuşuna basana kadar proje ekranda görünmeye devam eder.
 // #region ile kod başlıkları oluşturup, satırları açıp kapatabiliriz.
 // ctrl + D ile satırın aynısını kopyalayıp yapıştırabiliriz
+// ctrl + TAB ile kodu tamamlayabiliriz.

@@ -175,21 +175,21 @@ namespace _05_LoopsWithStars
 
             #region Ters Piramit Deseni
 
-            int n = 5;
-            for (int i = n; i >= 1; i--)
-            {
-                // Boşluklar
-                for (int j = n - i; j > 0; j--)
-                {
-                    Console.Write(" ");
-                }
-                // Yıldızlar
-                for (int k = 1; k <= 2 * i - 1; k++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
+            //int n = 5;
+            //for (int i = n; i >= 1; i--)
+            //{
+            //    // Boşluklar
+            //    for (int j = n - i; j > 0; j--)
+            //    {
+            //        Console.Write(" ");
+            //    }
+            //    // Yıldızlar
+            //    for (int k = 1; k <= 2 * i - 1; k++)
+            //    {
+            //        Console.Write("*");
+            //    }
+            //    Console.WriteLine();
+            //}
             #endregion
 
             Console.ReadKey();

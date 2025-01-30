@@ -12,13 +12,13 @@ namespace _09_DatabeseProject
     {
         static void Main(string[] args)
         {
-            // Ado.net
+            // Ado.net 
 
             Console.WriteLine("***** C# Veri Tabanlı Ürün-Kategori Bilgi Sistemi *****");
             Console.WriteLine();
             Console.WriteLine();
 
-            string tableNumber;
+            string tableNumber; // Kullanıcıdan işlem numarası almak için değişken tanımladık.
 
             Console.WriteLine("-------------------------------------------------------------");
             Console.WriteLine("1- Kategoriler");
@@ -26,11 +26,11 @@ namespace _09_DatabeseProject
             Console.WriteLine("3- Siparişler");
             Console.WriteLine("4- Çıkış Yap");
             Console.Write("Lütfen Getirmek İstediğiniz Tablo Numarasını Giriniz: ");
-            tableNumber = Console.ReadLine();   
+            tableNumber = Console.ReadLine();
             Console.WriteLine("-------------------------------------------------------------");
 
             // SQL Bağlantısı: 
-            SqlConnection connection = new SqlConnection("Data Source= DESKTOP-D0JM4M6\\SQLEXPRESS;initial Catalog=EgitimKampiDb;integrated security=true"); 
+            SqlConnection connection = new SqlConnection("Data Source= DESKTOP-6D39R8B\\SQLEXPRESS;initial Catalog=EgitimKampiDb;integrated security=true");
             // connection isimli yeni bir nesne oluşturduk.
             // Veritabanı sunucu adresimizi ekledik.
             // Veritabanımızın kendi ismini ekledik.
@@ -52,11 +52,7 @@ namespace _09_DatabeseProject
                     Console.Write(item.ToString());
                 }
                 Console.WriteLine();
-            } 
-
-
-
-
+            }
 
             Console.ReadKey();
         }
@@ -86,4 +82,12 @@ namespace _09_DatabeseProject
 // SqlConnection("Sınıfın İsmi") connection("Sınıfın Nesnesi") = new SqlConnection(""); 
 // Property-Nitelik = Nesneye ait olan özellikler
 
+
+// varchar = Veri uzunluğa sabit olmayan türler için kullanılır. (isim, soyisim vs.)
+// Değişken türlerinde n ifadesi = Uluslar arası alfabeler kullanılacaksa tercih edilir. Latin alfabesinin dışındaki alfabelerde kullanılır.
+// nvarchar varcahara göre bellekte 2 katı yer kaplar.
+
 // var değişkeni = Bütün değişken türlerini üzerine alan bir değişkendir. (Kullanacağımız birden fazla değişken türü varsa var kullanırız.)
+
+// Primary Key = Birincil anahtar olarak seçilen sütun diğer sütunlardan ayrılır. Bir Id değeri başka bir Id'ye verilmez.
+// Identity Specification = Id değerinini otomatik olarak arttırmak için Is Identity yes olarak seçilir.
