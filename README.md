@@ -25,6 +25,13 @@ Bu projede foreach döngüsünü dizilerle kullanarak iki konuyu bir arada peki�
 ## ✍️ 8. Proje - Metotlar
 Bu projede metotların aslında birer fonksiyon olduğunu ve programda kullandığımız hazır metotlar olduğu gibi kendi ihtiyacımıza göre de yeni metotlar yazılabileceğini öğrendim. Metot oluşturma yöntemlerini ve kurallarını öğrendim. Oluşturduğumuz metodun geriye değer döndürüp döndürmediği durumları inceledim. Oluşturulan metodu çağırma işlemleri yaparak örneklerle metotlar konusunu pekiştirdim.
 
+## 🛠️ 9. Proje - SQL Veritabanı
+Projeye başlarken SQL Server Veritabanı ile yeni bir veritabanı ve tablolar oluşturmayı öğrendim. Projenin C# kısmında SQL bağlantısı oluşturmayı ve temel SQL sorguları ile Crud işlemlerine giriş yaptık. Veritabanı tablolarını oluştuştururken değişken tiplerini ve kullanım amaçlarını pekiştirdim. Primary Key ile bir sutünü birincil anahtar yapmayı öğrendim ve artış miktarını Identity ile ayarladım.
+C# kısmında veritabanındaki verilerle işlemler yapabilmek ve köprü bağlantısı yapabilmesi için  nesneler oluşturduk. 
+
+## 📊 10. Proje - Veritabanı Crud İşlemleri
+Bu Projede 9. derste oluşturmuş olduğumuz veritabanı üzerinde projemizin C# kısmında Crud işlemlerini gerçekleştirdik. Select, Insert, Update, Delete 4 temel sorgu ifadeleriyle veritabanı üzerinde C# kısmında sorgu ifadeleri oluştururak işlemler yaptık. TblProduct tablosuna ürün ekleme, listeleme, silme ve güncelleme işlemlerini yaptık. SQL sorgularını SqlCommand nesnesi oluşturarak yazdık. Kullanıcıdan alının değerleri AddWithValue ile tablodaki yerine ekledik. Yaptığımız işlemleri sorgusuz bir şekilde çalıştırması için  Execute.NonQuery(); ifadesini kullandık. Verilerimizi listelemek istediğimiz zaman foreach döngüsünden yararlandık.
+
 
 
 
